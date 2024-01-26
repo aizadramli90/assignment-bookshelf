@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @font-face {
+        font-family: 'Inter';
+        src: url(./font/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+      }
+
+      .box {
+        border: 1px solid red;
+        min-height: 50px;
+        padding: 15px;
+        border-radius: 10px;
+      }
+
+      .nav-link {
+        color: #FFF;
+      }
+
+      .logo-holder {
+        margin: auto 10px;
+      }
+
+      .contentbox {
+        width: 294px;
+        height: 577px;
+        border-radius: 20px;
+        padding: 24px;
+        gap: 8px;
+        border: 1px red solid;
+        background-color: white;
+      }
+
+      .bookcover {
+        border: 1px red solid;
+        width: 246px;
+        height: 357px;
+        border-radius: 10px;
+      }
+
+      img {
+        width: 246px;
+        height: 357px;
+        border-radius: 10px;
+      }
+
+      .contentbox {
+        display: flex;
+        flex-direction: column;
+        
+      }
+
+      .author {
+        font-size: 14px;
+        color: black;
+        opacity: 60%;
+        line-height: 20px;
+        letter-spacing: 0.15em;
+      }
+
+      .title {
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      .comment {
+        border: 1px solid rgba(0, 0, 0, .85);
+        border-radius: 31px;
+        width: 58px;
+        height: 32px;
+        color: rgba(0, 0, 0, .87);
+      }
+/*
+      .book2 {
+        background-image: url(./image/books/dopamine.jpg);
+        background-repeat: no-repeat;
+        object-fit: fill;
+      }
+
+      .book3 {
+        background-image: url(./image/books/grokking-algorithms-second-edition-9781633438538_lg.jpg);
+        background-repeat: no-repeat;
+        object-fit: fill;
+      }
+
+      .book4 {
+        background-image: url(./image/books/javasc.jpg);
+        background-repeat: no-repeat;
+        object-fit: fill;
+      }
+
+      .book5 {
+        background-image: url(./image/books/orwell.jpg);
+        background-repeat: no-repeat;
+        object-fit: fill;
+      }
+
+      .book6 {
+        background-image: url(./image/books/stockmarket.jpg);
+        background-repeat: no-repeat;
+        object-fit: fill;
+      }
+
+      .book7 {
+        background-image: url(./image/books/tenggelam.jpg);
+        background-repeat: no-repeat;
+        object-fit: fill;
+      }
+
+      .book8 {
+        background-image: url(./image/books/the-alchemist.jpg);
+        background-repeat: no-repeat;
+        object-fit: fill;
+      }
+
+      .book9 {
+        background-image: url(./image/books/thinklike.jpg);
+        background-repeat: no-repeat;
+        object-fit: fill;
+      }
+      */
+
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        font-family: inter;
+      }
+    </style>
+    <title>AiBookshelf</title>
+  </head>
+  <body>
+    <nav
+      class="box"
+      style="
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      "
+    >
+    <div class="box" style="border-radius: 20px; opacity: 96%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; background-color: #2a2c2e;">
+      <div class="box logo-holder" style="height: 25px; width: 25px; background-image: url(./image/logo.png); background-repeat: no-repeat;"></div>
+      <div class="box logo-holder nav-link" style="height: 25px; width: auto">BIG BOOKSHELF</div>
+      <div class="box" style="display: flex; flex-direction: row">
+        <ul
+          style="display: flex; flex-direction: row; gap: 20px; flex-wrap: wrap"
+        >
+          <a href="./index.html" class="nav-link"><li>Books</li></a>
+          <a href="" class="nav-link"><li>Authors</li></a>
+          <a href="" class="nav-link"><li>What to Read?</li></a>
+          <a href="" class="nav-link"><li>Gift Ideas</li></a>
+          <a href="" class="nav-link"><li>About Us</li></a>
+        </ul>
+      </div>
+      <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
+      <div class="logo-holder" style="height: 25px; width: 25px; background-image: url(./image/search.png); background-repeat: no-repeat;"></div>
+      <div class="logo-holder" style="height: 25px; width: 25px; background-image: url(./image/Intersect.png); background-repeat: no-repeat;"></div>
+      <div class="logo-holder" style="height: 25px; width: 25px; background-image: url(./image/shop.png); background-repeat: no-repeat;"></div>
+      <button style="background-color: #F4CE47; border-radius: 16px; padding: 16px 28px; width: 106px; height: 56px;">LOGIN</button>
+    </div>
+    </nav>
+  </div>
+    <div class="box" style="padding-left: 0; padding-right: 0; border-radius: 0px;">
+      <div class="box" style="background-color: #F4CE47; font-size: 48px; text-align: center;"><span style="color: #F4BA30;">ALL BOOKS ALL BOOKS</span> ALL BOOKS<span style="color: #F4BA30;"> ALL BOOKS ALL BOOKS</span></div>
+    </div>
+
+
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; background-color: #2a2c2e; gap: 8px;">
+      <div style="border: 1px red solid; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; background-color: #2a2c2e; gap: 8px;">
+        <div class="contentbox">
+          <div class="bookcover book1"><img src="./image/books/1398034.jpg" alt=""></div>
+          <div class="author">Pramoedya Ananta Toer</div>
+          <div class="title">Bumi Manusia</div>
+          <div class="comment-rating">
+            <div class="comment">140</div>
+            <div class="comment-icon"></div>
+          </div>
+        </div>
+        <div class="contentbox">
+          <div class="bookcover book2"><img src="./image/books/dopamine.jpg" alt=""></div>
+          <div class="author">Thibaut Meurisse</div>
+          <div class="title">Dopamine Detox</div>
+          <div class="comment-rating">
+            <div class="comment">140</div>
+            <div class="comment-icon"></div>
+          </div>
+        </div>
+        <div class="contentbox">
+          <div class="bookcover book3"><img src="./image/books/grokking-algorithms-second-edition-9781633438538_lg.jpg" alt=""></div>
+          <div class="author">Aditya Y. Bhargava</div>
+          <div class="title">Grokking Algorithms: Second Edition</div>
+          <div class="comment-rating">
+            <div class="comment">140</div>
+            <div class="comment-icon"></div>
+          </div>
+        </div>
+    </div>
+    <div style="border: 1px red solid; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; background-color: #2a2c2e; gap: 8px;">
+      <div class="contentbox">
+        <div class="bookcover book4"><img src="./image/books/javasc.jpg" alt=""></div>
+        <div class="author">Marijn Haverbeke</div>
+        <div class="title">Eloquent Javascript: Second Edition</div>
+        <div>
+          <div class="comment-rating">
+            <div class="comment">140</div>
+            <div class="comment-icon"></div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="contentbox">
+        <div class="bookcover book5"><img src="./image/books/orwell.jpg" alt=""></div>
+        <div class="author">George Orwell</div>
+        <div class="title">1984</div>
+        <div class="comment-rating">
+          <div class="comment">140</div>
+          <div class="comment-icon"></div>
+        </div>
+      </div>
+      <div class="contentbox">
+        <div class="bookcover book6"><img src="./image/books/stockmarket.jpg" alt=""></div>
+        <div class="author">Mark Minervini</div>
+        <div class="title">Trade Like A Stock Market Wizard</div>
+        <div class="comment-rating">
+          <div class="comment">140</div>
+          <div class="comment-icon"></div>
+        </div>
+      </div>
+    </div>
+    <div style="border: 1px red solid; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; background-color: #2a2c2e; gap: 8px;">
+      <div class="contentbox">
+        <div class="bookcover book7"><img src="./image/books/tenggelam.jpg" alt=""></div>
+        <div class="author">HAMKA</div>
+        <div class="title">Tenggelamnya Kapal Van der Wijck</div>
+        <div class="comment-rating">
+          <div class="comment">140</div>
+          <div class="comment-icon"></div>
+        </div>
+      </div>
+      <div class="contentbox">
+        <div class="bookcover book8"><img src="./image/books/the-alchemist.jpg" alt=""></div>
+        <div class="author">Paul Coelho</div>
+        <div class="title">The Alchemist</div>
+        <div class="comment-rating">
+          <div class="comment">140</div>
+          <div class="comment-icon"></div>
+        </div>
+      </div>
+      <div class="contentbox">
+        <div class="bookcover book9"><img src="./image/books/thinklike.jpg" alt=""></div>
+        <div class="author">V. Anton Spraul</div>
+        <div class="title">Think Like A Programmer</div>
+        <div class="comment-rating">
+          <div class="comment">140</div>
+          <div class="comment-icon"></div>
+        </div>
+      </div>
+    </div>
+        
+    </div>
+    
+    </div>
+
+    <footer style="background-color: white; padding-top: 20px; display: flex; flex-direction: column;">
+      <div style="background-color: #2a2c2e;">
+        <div class="box logo-holder" style="height: 25px; width: 25px; background-image: url(./image/logo.png); background-repeat: no-repeat;"></div>
+      </div>
+      <div style="background-color: black; display: flex; flex-direction: row; padding: auto 10px;">
+        <p style="font-size: 12px; color: white; margin-right: 10px;">Term and conditions</p>
+        <p style="font-size: 12px; color: white;">Privacy policy</p>
+      </div>
+    </footer>
+  </body>
+</html>
