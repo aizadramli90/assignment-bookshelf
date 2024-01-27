@@ -1,0 +1,158 @@
+
+/*--- FONT ---*/
+@font-face {
+    font-family: 'Inter';
+    src: url(./font/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+  }
+
+/*--- TEST ---*/
+  /*.box {
+    border: 1px solid red;
+    min-height: 50px;
+    padding: 15px;
+  }*/
+  /*--- TEST ---*/
+
+  /*--- NAVIGATION ---*/
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .nav-link {
+    color: #FFF;
+  }
+
+  .navlist {
+    list-style-type: none;
+
+  }
+
+  .logo-holder {
+    margin: auto 10px;
+  }
+
+  .contentbox {
+    width: 294px;
+    height: 577px;
+    border-radius: 20px;
+    padding: 24px;
+    gap: 8px;
+    background-color: white;
+  }
+
+  .bookcover {
+    width: 246px;
+    height: 357px;
+    border-radius: 10px;
+  }
+
+  .images-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #2a2c2e;
+    gap: 8px;
+  }
+
+  img {
+    width: 246px;
+    height: 357px;
+    border-radius: 10px;
+  }
+
+  .contentbox {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .author {
+    font-size: 14px;
+    color: black;
+    opacity: 60%;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+  }
+
+  .title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .comment {
+    border: 1px solid rgba(0, 0, 0, .85);
+    border-radius: 31px;
+    width: 58px;
+    height: 32px;
+    color: rgba(0, 0, 0, .87);
+  }
+/*
+  .book2 {
+    background-image: url(./image/books/dopamine.jpg);
+    background-repeat: no-repeat;
+    object-fit: fill;
+  }
+
+  .book3 {
+    background-image: url(./image/books/grokking-algorithms-second-edition-9781633438538_lg.jpg);
+    background-repeat: no-repeat;
+    object-fit: fill;
+  }
+
+  .book4 {
+    background-image: url(./image/books/javasc.jpg);
+    background-repeat: no-repeat;
+    object-fit: fill;
+  }
+
+  .book5 {
+    background-image: url(./image/books/orwell.jpg);
+    background-repeat: no-repeat;
+    object-fit: fill;
+  }
+
+  .book6 {
+    background-image: url(./image/books/stockmarket.jpg);
+    background-repeat: no-repeat;
+    object-fit: fill;
+  }
+
+  .book7 {
+    background-image: url(./image/books/tenggelam.jpg);
+    background-repeat: no-repeat;
+    object-fit: fill;
+  }
+
+  .book8 {
+    background-image: url(./image/books/the-alchemist.jpg);
+    background-repeat: no-repeat;
+    object-fit: fill;
+  }
+
+  .book9 {
+    background-image: url(./image/books/thinklike.jpg);
+    background-repeat: no-repeat;
+    object-fit: fill;
+  }
+  */
+
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inter;
+  }
+
+
+  /*--- META ---*/
+  @media only screen and (max-width: 1050px){
+    .images-holder {
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }
