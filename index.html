@@ -8,22 +8,11 @@
   </head>
   <body>
     <nav
-      class="box navigation"
-      style="
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-        margin: 20px auto;
-      "
-    >
-    <div class="box" style="border-radius: 20px; opacity: 96%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; background-color: #2a2c2e; padding: 20px 24px;">
-      <div class="box logo-holder" style="height: 40px; width: 166px; background-image: url(./image/logo_as_complete.png); background-repeat: no-repeat;"></div>
-      <div class="box" style="display: flex; flex-direction: row">
-        <ul class="navlist"
-          style="display: flex; flex-direction: row; gap: 20px; flex-wrap: wrap"
-        >
+      class="navigation">
+    <div class="insidebox">
+      <div class="left-nav logo-holder"><img class="logo" src="./image/logosvg.svg" alt=""></div>
+      <div class="center">
+        <ul class="navlist">
           <li><a href="./index.html" class="nav-link">Books</a></li>
           <li><a href="" class="nav-link">Authors</a></li>
           <li><a href="" class="nav-link">What to Read?</a></li>
@@ -31,123 +20,136 @@
           <li><a href="" class="nav-link">About Us</a></li>
         </ul>
       </div>
-      <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
-      <div class="logo-holder" style="height: 25px; width: 25px; background-image: url(./image/search.png); background-repeat: no-repeat;"></div>
-      <div class="logo-holder" style="height: 25px; width: 25px; background-image: url(./image/Intersect.png); background-repeat: no-repeat;"></div>
-      <div class="logo-holder" style="height: 25px; width: 25px; background-image: url(./image/shop.png); background-repeat: no-repeat;"></div>
-      <button style="background-color: #F4CE47; border-radius: 16px; padding: 16px 28px; width: 106px; height: 56px;">LOGIN</button>
+      <div class="right-nav">
+      <div class="nav-icon"><img style="border-radius: 0;" class="cari" style="" src="./image/search.png" alt=""></div>
+      <div class="nav-icon"><img class="save" src="./image/Intersect.png" alt=""></div>
+      <div class="nav-icon"><img class="shop" src="./image/shop.png" alt=""></div>
+      <button class="login-button" style="">LOGIN</button>
     </div>
     </nav>
   </div>
-    <div class="box" style="padding-left: 0; padding-right: 0; border-radius: 0px;">
-      <div class="box" style="background-color: #F4CE47; font-size: 48px; text-align: center; margin-bottom: 20px;"><span style="color: #F4BA30;">ALL BOOKS ALL BOOKS</span> ALL BOOKS<span style="color: #F4BA30;"> ALL BOOKS ALL BOOKS</span></div>
+    <div class="banner" style="">
+      <div class="banner-text"><span class="yellow-text">ALL BOOKS ALL BOOKS</span> ALL BOOKS<span class="yellow-text"> ALL BOOKS ALL BOOKS</span></div>
     </div>
 
 
-    <main style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; background-color: #2a2c2e; gap: 8px;">
-      <div  class="images-holder" style="margin-top: 50px;">
+    <main class="main-section">
+      <div  class="first images-holder">
         <div class="contentbox">
-          <div class="bookcover book1"><img src="./image/books/1398034.jpg" alt=""></div>
+          <div class="bookcover book1"><img class="cover" src="./image/books/1398034.jpg" alt=""></div>
           <div class="author">Pramoedya Ananta Toer</div>
           <div class="title">Bumi Manusia</div>
+          
           <div class="comment-rating">
-            <div class="comment">140</div>
-            <div class="comment-icon"></div>
+            <div class="comment" style="">14<div><img class="comment-icon" src="./image/comment.svg.svg" alt=""></div></div>
+            <div class="ratingNicon">4.6<img class="star" src="./image/star.svg.svg" alt="">(165)</div>
+            
           </div>
+          <div><span class="before-price">$15.50</span><span class="final-price">$10.50</span></div>
         </div>
+        
         <div class="contentbox">
-          <div class="bookcover book2"><img src="./image/books/dopamine.jpg" alt=""></div>
+          <div class="bookcover book2"><img class="cover" src="./image/books/dopamine.jpg" alt=""></div>
           <div class="author">Thibaut Meurisse</div>
           <div class="title">Dopamine Detox</div>
           <div class="comment-rating">
-            <div class="comment">140</div>
-            <div class="comment-icon"></div>
+            <div class="comment">14<div><img class="comment-icon" src="./image/comment.svg.svg" alt=""></div></div>
+            <div class="ratingNicon">4.6<img class="star" src="./image/star.svg.svg" alt="">(165)</div>
           </div>
+          <div><span class="before-price">$15.50</span><span class="final-price">$10.50</span></div>
         </div>
         <div class="contentbox">
-          <div class="bookcover book3"><img src="./image/books/grokking-algorithms-second-edition-9781633438538_lg.jpg" alt=""></div>
-          <div class="author">Aditya Y. Bhargava</div>
-          <div class="title">Grokking Algorithms: Second Edition</div>
+          <div class="bookcover book3"><img class="cover" src="./image/books/mater.svg" alt=""></div>
+          <div class="author">Mikhail Bulgakov</div>
+          <div class="title">Mater Margarita</div>
           <div class="comment-rating">
-            <div class="comment">140</div>
-            <div class="comment-icon"></div>
+            <div class="comment">14<div><img class="comment-icon" src="./image/comment.svg.svg" alt=""></div></div>
+            <div class="ratingNicon">4.6<img class="star" src="./image/star.svg.svg" alt="">(165)</div>
           </div>
+          <div><span class="before-price"></span><span class="final-price">$10.50</span></div>
         </div>
     </div>
     <div  class="images-holder">
       <div class="contentbox">
-        <div class="bookcover book4"><img src="./image/books/javasc.jpg" alt=""></div>
-        <div class="author">Marijn Haverbeke</div>
-        <div class="title">Eloquent Javascript: Second Edition</div>
+        <div class="bookcover book4"><img class="cover" src="./image/books/helloiamerik.svg" alt=""></div>
+        <div class="author">Erik Spiekermann</div>
+        <div class="title">Hello I am Erik</div>
         <div>
           <div class="comment-rating">
-            <div class="comment">140</div>
-            <div class="comment-icon"></div>
+            <div class="comment">14<div><img class="comment-icon" src="./image/comment.svg.svg" alt=""></div></div>
+            <div class="ratingNicon">4.6<img class="star" src="./image/star.svg.svg" alt="">(165)</div>
           </div>
-          
+          <div><span class="before-price"></span><span class="final-price">$10.50</span></div>
         </div>
         
       </div>
       <div class="contentbox">
-        <div class="bookcover book5"><img src="./image/books/orwell.jpg" alt=""></div>
+        <div class="bookcover book5"><img class="cover" src="./image/books/orwell.jpg" alt=""></div>
         <div class="author">George Orwell</div>
         <div class="title">1984</div>
         <div class="comment-rating">
-          <div class="comment">140</div>
-          <div class="comment-icon"></div>
+          <div class="comment">14<div><img class="comment-icon" src="./image/comment.svg.svg" alt=""></div></div>
+          <div class="ratingNicon">4.6<img class="star" src="./image/star.svg.svg" alt="">(165)</div>
         </div>
+        <div><span class="before-price"></span><span class="final-price">$10.50</span></div>
       </div>
       <div class="contentbox">
-        <div class="bookcover book6"><img src="./image/books/stockmarket.jpg" alt=""></div>
-        <div class="author">Mark Minervini</div>
-        <div class="title">Trade Like A Stock Market Wizard</div>
+        <div class="bookcover book6"><img class="cover" src="./image/books/muscle.svg" alt=""></div>
+        <div class="author">Alan Trotter</div>
+        <div class="title">Muscle</div>
         <div class="comment-rating">
-          <div class="comment">140</div>
-          <div class="comment-icon"></div>
+          <div class="comment">14<div><img class="comment-icon" src="./image/comment.svg.svg" alt=""></div></div>
+          <div class="ratingNicon">4.6<img class="star" src="./image/star.svg.svg" alt="">(165)</div>
         </div>
+        <div><span class="before-price">$22.10</span><span class="final-price">$10.50</span></div>
       </div>
     </div>
     <div  class="images-holder">
       <div class="contentbox">
-        <div class="bookcover book7"><img src="./image/books/tenggelam.jpg" alt=""></div>
-        <div class="author">HAMKA</div>
-        <div class="title">Tenggelamnya Kapal Van der Wijck</div>
+        <div class="bookcover book7"><img class="cover" src="./image/books/godfather.svg" alt=""></div>
+        <div class="author">Mario Puzo</div>
+        <div class="title">The Godfather</div>
         <div class="comment-rating">
-          <div class="comment">140</div>
-          <div class="comment-icon"></div>
+          <div class="comment">14<div><img class="comment-icon" src="./image/comment.svg.svg" alt=""></div></div>
+          <div class="ratingNicon">4.6<img class="star" src="./image/star.svg.svg" alt="">(165)</div>
         </div>
+        <div><span class="before-price"></span><span class="final-price">$10.50</span></div>
       </div>
       <div class="contentbox">
-        <div class="bookcover book8"><img src="./image/books/the-alchemist.jpg" alt=""></div>
+        <div class="bookcover book8"><img class="cover" src="./image/books/the-alchemist.jpg" alt=""></div>
         <div class="author">Paul Coelho</div>
         <div class="title">The Alchemist</div>
         <div class="comment-rating">
-          <div class="comment">140</div>
-          <div class="comment-icon"></div>
+          <div class="comment">14<div><img class="comment-icon" src="./image/comment.svg.svg" alt=""></div></div>
+          <div class="ratingNicon">4.6<img class="star" src="./image/star.svg.svg" alt="">(165)</div>
         </div>
+        <div><span class="before-price"></span><span class="final-price">$10.50</span></div>
       </div>
       <div class="contentbox">
-        <div class="bookcover book9"><img src="./image/books/thinklike.jpg" alt=""></div>
+        <div class="bookcover book9"><img class="cover" src="./image/books/thinklike.jpg" alt=""></div>
         <div class="author">V. Anton Spraul</div>
         <div class="title">Think Like A Programmer</div>
         <div class="comment-rating">
-          <div class="comment">140</div>
-          <div class="comment-icon"></div>
+          <div class="comment">14<div><img class="comment-icon" src="./image/comment.svg.svg" alt=""></div></div>
+          <div class="ratingNicon">4.6<img class="star" src="./image/star.svg.svg" alt="">(165)</div>
         </div>
+        <div><span class="before-price"></span><span class="final-price">$10.50</span></div>
       </div>
+      
     </div>
         
     </main>
     
     </div>
 
-    <footer style="background-color: white; padding-top: 20px; display: flex; flex-direction: column; margin-top: 20px;">
-      <div style="background-color: #2a2c2e;">
-        <div class="box logo-holder" style="height: 204px; width: 48px; background-image: url(./image/logo_as_complete.png); background-repeat: no-repeat;"></div>
+    <footer style="display: padding-top: 20px;">
+      <div class="logo-and-socmed">
+        <div style="margin-top: 20px;" class="left-footer" style=""><img class="footer-logo" src="./image/logosvg.svg" alt="footer big bookshelf logo"></div>
+        <div class="right-footer" style=""><img class="socmed-icon igicon" src="./image/igsvg.svg" alt="follow us on instagram"><img class="socmed-icon fbicon" src="./image/fbsvg.svg" alt="like our page on facebook"><img class="socmed-icon twticon" src="./image/twittersvg.svg" alt="follow us on twitter"></div>
       </div>
-      <div style="background-color: black; display: flex; flex-direction: row; padding: auto 10px;">
-        <p style="font-size: 12px; color: white; margin-right: 10px;">Term and conditions</p>
-        <p style="font-size: 12px; color: white;">Privacy policy</p>
+      <div class="tnc-and-contact">
+        <div class="termpolicy"><a class="tnc-link" href="">Term and conditions</a><a class="privacy-p" href="">Privacy policy</a></div>
+        <div class="contact"><a class="contact-link" href="">+44 1332 412251</a><a class="email-link" href="">support@bbookshelf.com</a></div>
       </div>
     </footer>
   </body>
