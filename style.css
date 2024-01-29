@@ -205,7 +205,9 @@
 .comment-rating {
   display: flex;
   flex-direction: column;
-  gap: 10px
+  gap: 10px;
+  display: flex; 
+  flex-direction: row;
 }
 .comment {
   border: 1px solid rgba(0, 0, 0, .85);
