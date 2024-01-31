@@ -280,7 +280,7 @@ footer {
   flex-direction: row; 
   justify-content: space-between; 
   align-items: center; 
-  max-width: 1248px;
+  max-width: 2000px;
   padding-right: 20px;
   flex-grow: 1
 }
@@ -308,7 +308,7 @@ footer {
   display: flex; 
   flex-direction: row; 
   height: 40px; 
-  max-width: 1248px; 
+  max-width: 2000px; 
   justify-content: space-between;
   align-items: center;
 }

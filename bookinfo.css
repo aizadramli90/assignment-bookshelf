@@ -23,7 +23,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter';
-    border: 1px red solid;
+    /*border: 1px red solid;*/
   }
 
   body {
@@ -155,7 +155,7 @@
     justify-content: center;
   }
   
-  .bigbook {
+ /* .bigbook {
     
     width: 314px;
     height: 476px;
@@ -163,7 +163,7 @@
     display: flex;
     flex-direction: row;
     
-  }
+  }*/
 
   .arrow {
     width: 20px;
@@ -186,6 +186,11 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.15%;
+  }
+
+  .author, 
+  .title {
+    margin-bottom: 10px;
   }
 
   .table-info {
@@ -373,7 +378,7 @@
     flex-direction: row; 
     justify-content: space-between; 
     align-items: center; 
-    max-width: 1248px;
+    max-width: 2000px;
     padding-right: 20px;
     flex-grow: 1
   }
@@ -401,7 +406,7 @@
     display: flex; 
     flex-direction: row; 
     height: 40px; 
-    max-width: 1248px; 
+    max-width: 2000px; 
     justify-content: space-between;
     align-items: center;
   }
@@ -453,101 +458,3 @@
     width: 17.23px;
     height: 14px;
   }
-  
-  
-  /*--- MEDIA QUERY ---*/
-  @media (max-width: 1080px){
-    .images-holder {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-  
-    .navlist {
-      display: flex;
-      flex-direction: column;
-  
-    }
-    
-  }
-  
-  @media (max-width: 800px){
-    .logo-holder {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  
-    }
-  
-    .navigation {
-      display: flex;
-      flex-direction: column;
-      
-    }
-  
-    .logo-holder {
-      margin: auto 10px;
-      height: 40px; 
-      width: 100%; 
-      margin-right: 80px;
-    }
-    
-    .logo {
-      height: 40px;
-      width: 166px;
-    }
-  
-    .images-holder {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .insidebox {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      
-    }
-  
-    .navlist {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-    }
-  
-    .center {
-      
-      flex-direction: column;
-      align-items: center;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      
-      
-    }
-  
-    .logo-and-socmed {
-      min-height: 88px;
-      padding-top: auto;
-    }
-  
-    .tnc-and-contact {
-      display: flex;
-      flex-direction: column;
-      padding-bottom: 0;
-      justify-content: center;
-      min-height: 72px;
-    }
-  
-    footer {
-      padding-top: 20px;
-      margin-bottom: 0;
-    }
-    
-  }
-  
-  
-  
