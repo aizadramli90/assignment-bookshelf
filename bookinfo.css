@@ -254,9 +254,108 @@
     gap: 16px;
   }
 
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  .row0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 56px;
+    margin-bottom: 16px;
+  }
+
+  .review-card {
+    width: 596px;
+    height: 296px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  
+  .readmore {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .rate {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .star {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .review-header {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .review-button {
+    width: 156px;
+    height: 56px;
+    border-radius: 16px;
+    padding: 16px 28px;
+  }
+
+  .review-button:hover {
+    background-color: rgba(244, 206, 71, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
+
+  .name-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ 
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .reviews {
+    gap: 20px;
+  }
 
 
   /*end section*/
+
+  /*Readers Reviews Section*/
+
 
   footer {
     background-color: white; 
