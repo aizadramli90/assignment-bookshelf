@@ -569,10 +569,11 @@
     
   }*/
 
-  .suggestion {
-    display: flex;
-    flex-direction: column;
+  .otherbooks {
+    overflow-x: scroll;
   }
+
+  
 
   
 
@@ -585,4 +586,24 @@
     width: 100%;
   }*/
 
+}
+
+@media (max-width: 800px) {
+  .logo-and-socmed {
+    min-height: 88px;
+    padding-top: auto;
+  }
+
+  .tnc-and-contact {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    justify-content: center;
+    min-height: 72px;
+  }
+
+  footer {
+    padding-top: 20px;
+    margin-bottom: 0;
+  }
 }
