@@ -26,7 +26,6 @@
             <img
               style="border-radius: 0"
               class="cari"
-              style=""
               src="./image/search.png"
               alt=""
             />
@@ -37,12 +36,12 @@
           <div class="nav-icon">
             <img class="shop" src="./image/shop.png" alt="" />
           </div>
-          <a href=""><button class="login-button" style="">LOGIN</button></a>
+          <a href=""><button class="login-button">LOGIN</button></a>
         </div>
       </div>
     </nav>
 
-    <div class="banner" style="">
+    <div class="banner">
       <div class="banner-text">
         <span class="yellow-text">ALL BOOKS ALL BOOKS</span> ALL BOOKS<span
           class="yellow-text"
@@ -53,8 +52,8 @@
     </div>
 
     <main class="book-section">
-      <div class="overview" style="">
-        <div style="display: flex; flex-direction: row; gap: 24px">
+      <div class="overview">
+        <div class="gambar-detail">
           <div class="bigbook">
             <img
               class="gambar"
@@ -65,7 +64,7 @@
               <img src="./image/bookmark.svg" alt="" />
             </div>
           </div>
-          <div class="publish-info" style="">
+          <div class="publish-info">
             <ul style="list-style: none; margin-bottom: 20px">
               <li class="author" style="color: white">Alan Trotter</li>
               <li
@@ -282,10 +281,22 @@
       </div>
     </section>
 
-    <div class="reviews" style="margin-bottom: 20px">
+    <div
+      class="reviews"
+      style="max-width: 1300px; flex-wrap: wrap; margin: 20px auto"
+    >
       <div class="row0">
-        <div class="top">
-          <h2 class="review-header">READERS REVIEWS</h2>
+        <div
+          class="review-header"
+          style="
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <p>READERS REVIEWS</p>
           <button class="review-button">ADD REVIEW</button>
         </div>
       </div>
@@ -451,14 +462,14 @@
 
     <footer style="padding-top: 20px">
       <div class="logo-and-socmed">
-        <div style="margin-top: 20px" class="left-footer" style="">
+        <div style="margin-top: 0" class="left-footer">
           <img
             class="footer-logo"
             src="./image/logosvg.svg"
             alt="footer big bookshelf logo"
           />
         </div>
-        <div class="right-footer" style="">
+        <div class="right-footer">
           <img
             class="socmed-icon igicon"
             src="./image/igsvg.svg"

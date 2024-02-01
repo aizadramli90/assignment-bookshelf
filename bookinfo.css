@@ -23,7 +23,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter';
-    /*border: 1px red solid;*/
+   /* border: 1px red solid;*/
   }
 
   html {
@@ -55,8 +55,9 @@
   .navlist {
     list-style-type: none;
     margin-right: 80px;
-    display: flex; flex-direction: 
-    row; gap: 20px; 
+    display: flex; 
+    flex-direction: row; 
+    gap: 20px; 
     flex-wrap: wrap
   }
   
@@ -153,8 +154,8 @@
     display: flex;
     flex-direction: row;
     
-    max-width: ;width: 1200px;
-    max-height: 530px;
+    /*max-width: ;width: 1200px;
+    max-height: 530px;*/
     border-radius: 10px;
     
     justify-content: center;
@@ -164,11 +165,11 @@
     
     justify-content: space-between;
     padding: 16px;
-    overflow-x: scroll;
+    /*overflow-x: scroll;
     scrollbar-width: thin;
-    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);*/
   }
-
+/*
   .overview::-webkit-scrollbar-track {
     background: var(--scrollbarBG);
   }
@@ -178,7 +179,7 @@
     border-radius: 18px;
     border: 10px solid var(--scrollbarBG);
   }
-  
+  */
  .bigbook {
     
     position: relative;
@@ -229,6 +230,11 @@
     gap: 8px; 
     padding-bottom: 30px;
     
+  }
+  .gambar-detail {
+    display: flex; 
+    flex-direction: row; 
+    gap: 24px;
   }
 
   .title {
@@ -281,8 +287,8 @@
   .maylike {
     display: flex;
     flex-direction: column;
-    width: 1200px;
-    height: 408px;
+    flex-wrap: wrap;
+    
   }
 
   .suggestion {
@@ -319,7 +325,7 @@
     align-items: center;
     gap: 16px;
   }
-
+/* REVIEWS */
   .reviews {
     display: flex;
     flex-direction: column;
@@ -331,18 +337,23 @@
   .row0 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    
   }
 
-  .top {
+  .toprow {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
-    height: 56px;
-    margin-bottom: 16px;
+    
+    display: flex; 
+    flex-direction: column; 
+    margin: 0 auto; 
+    flex-wrap: wrap;
+    width: 100%;
+
   }
 
   .review-card {
@@ -443,6 +454,7 @@
     align-items: center; 
     max-width: 2000px;
     padding-right: 20px;
+    padding-left: 20px;
     flex-grow: 1
   }
   
@@ -474,9 +486,7 @@
     align-items: center;
   }
   
-  .termpolicy {
-  
-  }
+
   
   .tnc-link {
     font-size: 12px; 
@@ -559,7 +569,7 @@
 }
 
 @media (max-width: 1152px) {
-  /*.book-section {
+  .book-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -567,7 +577,7 @@
     width: 100%;
     height: fit-content;
     
-  }*/
+  
 
   .otherbooks {
     overflow-x: scroll;
@@ -577,18 +587,72 @@
 
   
 
-  /*.overview {
+  
+
+  .overview {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: fit-content;
     width: 100%;
-  }*/
+  }
 
 }
 
+@media (max-width: 1230px) {
+  .maylike {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .otherbooks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .review-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+    
+}
+
 @media (max-width: 800px) {
+  .tajuk {
+    margin-bottom: 20px;
+  }
+
+  .gambar-detail {
+    display: flex; 
+    flex-direction: column; 
+    gap: 24px;
+  }
+
   .logo-and-socmed {
     min-height: 88px;
     padding-top: auto;
@@ -606,4 +670,6 @@
     padding-top: 20px;
     margin-bottom: 0;
   }
+
 }
+  
