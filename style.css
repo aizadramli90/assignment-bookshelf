@@ -44,6 +44,10 @@
   flex-wrap: wrap
 }
 
+#books-menu {
+  color: rgba(244, 246, 103, 1);
+}
+
 .insidebox {
   align-items: center;
   border-radius: 20px;
@@ -301,6 +305,8 @@ footer {
 .right-footer {
   display: flex; 
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .tnc-and-contact {

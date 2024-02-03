@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="book_registry.css" />
+    <title>Book Registration - Big Bookshelf</title>
+  </head>
+  <body>
+    <nav
+      class="navigation">
+    <div class="insidebox">
+      <div class="left-nav logo-holder"><img class="logo" src="./image/logosvg.svg" alt=""></div>
+      <div class="center">
+        <ul class="navlist">
+          <li><a href="./index.html" class="nav-link" id="books-menu">Books</a></li>
+          <li><a href="#" class="nav-link">Authors</a></li>
+          <li><a href="#" class="nav-link">What to Read?</a></li>
+          <li><a href="#" class="nav-link">Gift Ideas</a></li>
+          <li><a href="#" class="nav-link">About Us</a></li>
+        </ul>
+      </div>
+      <div class="right-nav">
+      <div class="nav-icon"><img style="border-radius: 0;" class="cari" style="" src="./image/new-search.svg" alt=""></div>
+      <div class="nav-icon"><img class="save" src="./image/new-save.svg" alt=""></div>
+      <div class="nav-icon"><img class="shop" src="./image/new-bag.svg" alt=""></div>
+      <button class="login-button" style="">LOGIN</button>
+    </div>
+    </nav>
+
+    
+    <main>
+        <div class="form-holder">
+
+            
+            
+
+
+        <form method="post" action="http://httpbin.org/post">
+
+
+            <div class="form-part">
+                <div class="part-with-line">
+                    <div class="part-name">Book Details</div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="form-label">
+                    <label for="title">Title</label>
+                </div>
+                <div class="inputholder">
+                    <input type="text" id="title" name="title" placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp" required>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="form-label">
+                    <label for="genre">Genre</label>
+                </div>
+                <div class="inputholder">
+                    <input type="text" id="genre" name="genre" placeholder="Your book genre here. E.g. Fantasy" list="genres" required>
+                    <datalist id="genres">
+                        <option value="Literary Fiction"></option>
+                        <option value="Historical Fiction"></option>
+                        <option value="Science Fiction"></option>
+                        <option value="Fantasy"></option>
+                        <option value="Mystery"></option>
+                        <option value="Thriller"></option>
+                        <option value="Horror"></option>
+                        <option value="Romance"></option>
+                        <option value="Biography"></option>
+                        <option value="Autobiography"></option>
+                        <option value="Memoir"></option>
+                        <option value="Self-Help"></option>
+                        <option value="Psychology"></option>
+                        <option value="Philosophy"></option>
+                        <option value="History"></option>
+                        <option value="Science"></option>
+                        <option value="Travel"></option>
+                        <option value="Essays"></option>
+                        <option value="Children"></option>
+                        <option value="Young Adult (YA)"></option>
+                        <option value="Crime"></option>
+                        
+                    </datalist>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="form-label">
+                    <label for="author">Author</label>
+                </div>
+                <div class="inputholder">
+                    <input type="text" id="author" name="author" placeholder="Your book author here. E.g. J. K. Rowling" required>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="form-label">
+                    <label for="publisher">Publisher</label>
+                </div>
+                <div class="inputholder">
+                    <input type="text" id="publisher" name="publisher" placeholder="Publisher of the book. E.g. Pustake Nelang" required>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="form-label">
+                    <label for="year-published">Year Published</label>
+                </div>
+                <div class="inputholder">
+                    <input type="number" id="year-published" name="year-published" placeholder="1994">
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="form-label">
+                    <p for="">Availability</p>
+                </div>
+                <div class="form-radio">
+                    <div><input type="radio" id="online" value="online" name="avalability" checked><label class="available-label" for="online">Online</label></div>
+                    <div><input type="radio" id="in-store" value="in-store" name="avalability"><label class="available-label" for="in-store">In store</label></div>
+                    <div><input type="radio" id="both" value="both" name="avalability"><label class="available-label" for="both">Online & In store</label></div>
+
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="form-label">
+                    <label for="pages">Pages</label>
+                </div>
+                <div class="inputholder">
+                    <input type="number" id="pages" name="pages" placeholder="514">
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="form-label">
+                    <label for="language">Language</label>
+                </div>
+                <div class="inputholder">
+                    <input type="text" id="language" name="language" placeholder="Language used in the book. E.g. English" required>
+                </div>
+            </div>
+
+            <div class="form-part">
+                <div class="part-with-line">
+                    <div class="part-name">Registree Details</div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="form-label">
+                    <label for="username">Name</label>
+                </div>
+                <div class="inputholder">
+                    <input type="text" id="username" name="username" placeholder="Your name. E.g. Ejad Ramli" required>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="form-label">
+                    <label for="email">Email</label>
+                </div>
+                <div class="inputholder">
+                    <input type="text" id="email" name="email" placeholder="Your email. E.g. ejadisfawesome@email.com" required>
+                </div>
+            </div>
+
+            <div class="rules-agree">
+                <input type="checkbox" name="terms_and_conditions" id="terms_and_conditions">
+                <label for="terms_and_conditions" class="statement">I hereby agree to follow all rules and confirmed that all details are accurate</label>
+            </div>
+
+            <input type="submit" value="SAVE YOUR BOOK" id="save">
+
+            
+
+
+
+
+
+
+        </form>
+
+        </div>
+        
+
+
+    </main>
+
+  
+
+    <footer style="display: padding-top: 20px;">
+      <div class="logo-and-socmed">
+        <div  class="left-footer" style=""><img class="footer-logo" src="./image/logosvg.svg" alt="footer big bookshelf logo"></div>
+        <div class="right-footer" style=""><img class="socmed-icon igicon" src="./image/igsvg.svg" alt="follow us on instagram"><img class="socmed-icon fbicon" src="./image/fbsvg.svg" alt="like our page on facebook"><img class="socmed-icon twticon" src="./image/twittersvg.svg" alt="follow us on twitter"></div>
+      </div>
+      <div class="tnc-and-contact">
+        <div class="termpolicy"><a class="tnc-link" href="">Term and conditions</a><a class="privacy-p" href="">Privacy policy</a></div>
+        <div class="contact"><a class="contact-link" href="">+44 1332 412251</a><a class="email-link" href="">support@bbookshelf.com</a></div>
+      </div>
+    </footer>
+  </body>
+</html>

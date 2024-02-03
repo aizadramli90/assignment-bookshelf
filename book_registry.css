@@ -1,0 +1,499 @@
+
+/*--- FONT ---*/
+@font-face {
+    font-family: 'Inter';
+    src: url(./font/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+  }
+  
+  
+  /*reset*/
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px red solid;
+  }
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inter;
+    
+  }
+  
+  /*----------------------------------------------------------------------- NAVIGATION --------------------------------------------------------------------*/
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+    
+  }
+  
+  .nav-link {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  .navlist > li {
+    height: 50px;
+  }
+  
+  .navlist {
+    list-style-type: none;
+    margin-right: 80px;
+    display: flex; 
+    flex-direction: 
+    row; gap: 20px; 
+    flex-wrap: wrap
+  }
+
+  #books-menu {
+    color: rgba(244, 246, 103, 1);
+  }
+  
+  .insidebox {
+    align-items: center;
+    border-radius: 20px;
+    opacity: 96%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    background-color: #2a2c2e;
+    padding: 20px 24px;
+    justify-content: space-between;
+    max-width: 100%;
+    /*max-width: 1200px;*/
+  }
+  
+  .logo-holder {
+    margin: auto 10px;
+    height: 40px; 
+    width: 166px; 
+    margin-right: 80px;
+  }
+  
+  .logo {
+    height: 40px;
+    width: 166px;
+  }
+  
+  .center {
+    display: flex; 
+    flex-direction: row;
+    padding: 0;
+  }
+  
+  .right-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+  }
+  
+  .nav-icon {
+    height: 25px;
+    width: 25px;
+    
+  }
+  
+  .nav-icon img{
+    height: 25px;
+    width: 25px;
+    border-radius: 0;
+  }
+  
+  
+  
+  .login-button {
+    background-color: #F4CE47; 
+    border-radius: 16px; 
+    padding: 16px 28px; 
+    width: 106px; 
+    height: 56px;
+    margin-left: 10px;
+  }
+  
+ 
+ 
+  
+  /*------------------------------------------------------------------------------FORM SECTION--------------------------------------------------------*/
+  
+ main {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .form-holder {
+    background-color: rgba(42, 44, 46, 1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    gap: 20px;
+    width: 70%;
+ } 
+
+ .form-part {
+    
+ }
+
+ .part-with-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  margin-bottom: 20px;
+ 
+ }
+
+ .part-name {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 160px;
+  color: rgba(255, 255, 255, 1);
+  
+ }
+
+ .line {
+  width: 45%;
+  height: 1px;
+  background-color: white;
+  margin-left: 15px;
+ }
+
+ .register-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+ }
+
+ .form-label {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    width: 135px;
+ }
+
+ .available-label {
+    color: rgba(255, 255, 255, 1);
+    margin-left: 1px;
+ }
+
+ .form-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+
+ .inputholder {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+ }
+
+ .form-radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+ }
+
+ .form-radio > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
+
+ input[type="radio"] {
+ 
+ }
+
+ #title, #genre, #author, #publisher, #year-published, #pages, #language, #username, #email {
+    border-radius: 16px;
+    height: 56px;
+    width: 572px;
+    border-style: none;
+   
+    padding-left: 16px;
+    
+ }
+
+ .rules-agree {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+
+ .statement {
+    color: rgba(255, 255, 255, 1);
+    margin-left: 20px;
+ }
+
+ #save {
+    width: 709px;
+    height: 56px;
+    border-radius: 16px;
+    background-color: rgba(244, 206, 71, 1);
+ }
+
+ #save:hover {
+  cursor: pointer;
+ }
+ 
+  
+  
+  /*-------------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------*/
+  footer {
+    background-color: white; 
+    display: flex; 
+    flex-direction: column; 
+    margin: 0 auto; 
+    flex-wrap: wrap;
+    max-width: 1300px;
+    
+  }
+  
+  .logo-and-socmed {
+    background-color: #2a2c2e; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 2000px;
+    padding-right: 20px;
+    flex-grow: 1
+  }
+  
+  .left-footer {
+    
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    width: 204px; 
+    height: 48px;
+  }
+  
+  .right-footer {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tnc-and-contact {
+    background-color: black; 
+    display: flex; 
+    flex-direction: row; 
+    height: 40px; 
+    max-width: 2000px; 
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  
+  .tnc-link {
+    font-size: 12px; 
+    color: white; 
+    margin-right: 10px;
+  } 
+  
+  .privacy-p {
+    font-size: 12px; 
+    color: white; 
+    margin-right: 10px;
+  }
+  
+  .contact-link {
+    font-size: 12px; 
+    color: white; 
+    margin-right: 10px;
+  }
+  
+  .email-link {
+    font-size: 12px; 
+    color: white; 
+    margin-right: 10px;
+  }
+  
+  .socmed-icon {
+    margin-left: 10px;
+    border-radius: 0;
+  }
+  
+  .igicon {
+    width: 17.98px;
+    height: 18px;
+  }
+  
+  .fbicon{
+    width: 8.31px;
+    height: 18px;
+  }
+  
+  .twticon {
+    width: 17.23px;
+    height: 14px;
+  }
+  
+  
+  /*--- MEDIA QUERY ---*/
+  @media (max-width: 1080px){
+    .images-holder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+  
+    .navlist {
+      display: flex;
+      flex-direction: column;
+  
+    }
+
+    .form-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .inputholder {
+      flex-shrink: 1;
+    }
+
+    .form-holder {
+      display: flex;
+      flex-direction: column;
+
+      width: 100%;
+    }
+    
+  }
+  
+  @media (max-width: 800px){
+    .logo-holder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+    }
+
+    .right-nav {
+      margin: 0 auto;
+    }
+  
+    .navigation {
+      display: flex;
+      flex-direction: column;
+      
+    }
+  
+    .logo-holder {
+      margin: auto 10px;
+      height: 40px; 
+      width: 100%; 
+      margin-right: 80px;
+    }
+    
+    .logo {
+      height: 40px;
+      width: 166px;
+    }
+  
+    .insidebox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      
+    }
+
+    #save {
+      width: 80%;
+    }
+
+   #title, #genre, #author, #publisher, #year-published, #pages, #language, #username, #email {
+      border-radius: 16px;
+      /*height: 56px;*/
+      width: 80%;
+      border-style: none;
+      /*padding-left: 16px;*/
+      
+   }
+
+   .form-radio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   }
+  
+    .navlist {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .center {
+      
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+      
+    }
+  
+    .logo-and-socmed {
+      min-height: 88px;
+      padding-top: auto;
+    }
+  
+    .tnc-and-contact {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 0;
+      justify-content: center;
+      min-height: 72px;
+    }
+  
+    footer {
+      padding-top: 20px;
+      margin-bottom: 0;
+    }
+
+
+    
+  }
+  
+  
+  
+  

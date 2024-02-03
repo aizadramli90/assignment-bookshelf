@@ -23,7 +23,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter';
-   /* border: 1px red solid;*/
+    /*border: 1px red solid;*/
   }
 
   html {
@@ -33,6 +33,7 @@
 
   body {
     background-color: #F6F4F0;
+    
   }
   
   /*----------------------------------------------------------------------- NAVIGATION --------------------------------------------------------------------*/
@@ -228,7 +229,7 @@
     justify-content: center; 
     background-color: #F6F4F0; 
     gap: 8px; 
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     
   }
   .gambar-detail {
@@ -288,6 +289,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-bottom: 20px;
     
   }
 
@@ -326,20 +328,40 @@
     gap: 16px;
   }
 /* REVIEWS */
+
+  .review-head {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1212px; 
+    margin: 0 auto;
+  }
+
+  .review-title > p {
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .review-head > a > button {
+    width: 156px;
+    height: 56px;
+    padding: 16px 28px;
+    border-radius: 16px;
+  }
+
+  .review-head > a :hover {
+    cursor: pointer;
+  }
+
+
+
   .reviews {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 32px;
-  }
-
-  .row0 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
   }
 
   .toprow {
@@ -390,9 +412,7 @@
   
 
   .review-header {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
+    max-width: 100vh;
   }
 
   .review-button {
@@ -429,6 +449,8 @@
   .reviews {
     gap: 20px;
   }
+
+ 
 
 
   /*end section*/
@@ -474,6 +496,7 @@
   .right-footer {
     display: flex; 
     flex-direction: row;
+    align-items: center;
   }
   
   .tnc-and-contact {
