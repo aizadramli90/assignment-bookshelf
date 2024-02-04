@@ -92,13 +92,22 @@
   margin-left: 10px;
 }
 
-.nav-icon img{
-  height: 25px;
-  width: 25px;
-  border-radius: 0;
+
+
+.save-icon {
+  width: 15px;
+  height: 18px;
 }
 
+.search-icon {
+  width: 18px;
+  height: 18px;
+}
 
+.shop-icon {
+  width: 17.75px;
+  height: 19.5px;
+}
 
 .login-button {
   background-color: #F4CE47; 
